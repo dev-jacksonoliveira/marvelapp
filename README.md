@@ -22,5 +22,11 @@ marvel_private_api_key=<YOUR_PUBLIC_API_KEY>
 
 O projeto foi desenvolvido seguindo a arquitetura MVVM, com a divisão em camadas de data, model e
 presentation. Ele utiliza injeção de dependências e navegação entre fragmentos. 
-![home_marvel_app](https://github.com/dev-jacksonoliveira/challenge-marvelapp/assets/59921189/7d68a4e7-9cec-458e-92fe-7c4cc94d5cba)
-![Uploading detail_screen.png…]()
+
+### Preview
+
+![home_marvel_app](https://github.com/dev-jacksonoliveira/challenge-marvelapp/assets/59921189/a503a981-5470-4f84-8f59-1fbc7e353e93)
+![detail_screen](https://github.com/dev-jacksonoliveira/challenge-marvelapp/assets/59921189/3f920a6e-fd2d-4d2a-bade-66fcc64e7c0c)
+
+
+
