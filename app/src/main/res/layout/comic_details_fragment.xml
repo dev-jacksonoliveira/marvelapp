@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/app_bar_details"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/gradient_rectangle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Comics"
+        app:titleCentered="true"
+        app:titleTextColor="@color/white"
+        tools:title="Comics" />
+
+    <RelativeLayout
+        android:id="@+id/layout_images"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_bar_details"
+        android:layout_marginTop="2dp"
+        android:padding="8dp"
+        app:cardCornerRadius="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_comic_details"
+            android:layout_width="160dp"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="20dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/image_view_comic_details"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_launcher_foreground" />
+
+        </androidx.cardview.widget.CardView>
+
+        <com.jacksonoliveira.marvelapp.presentation.components.BlurredImageView
+            android:id="@+id/image_background"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/image_background"
+            android:layout_below="@+id/image_background"
+            android:layout_alignBottom="@+id/card_view_comic_details"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="7dp"
+            android:layout_toEndOf="@+id/card_view_comic_details"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:justificationMode="inter_word"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:text="Spider Man" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_images">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginEnd="8dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:text="Miles Morales" />
+        </androidx.core.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<androidx.gridlayout.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/shimmer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:orientation="vertical">
+
+    <include
+        layout="@layout/shimmer_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/><include
+        layout="@layout/shimmer_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/><include
+        layout="@layout/shimmer_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/><include
+        layout="@layout/shimmer_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/><include
+        layout="@layout/shimmer_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.gridlayout.widget.GridLayout>
