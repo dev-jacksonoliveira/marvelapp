@@ -25,8 +25,9 @@ presentation. Ele utiliza injeção de dependências e navegação entre fragmen
 
 ### Preview
 
-![home_marvel_app](https://github.com/dev-jacksonoliveira/challenge-marvelapp/assets/59921189/a503a981-5470-4f84-8f59-1fbc7e353e93)
-![detail_screen](https://github.com/dev-jacksonoliveira/challenge-marvelapp/assets/59921189/3f920a6e-fd2d-4d2a-bade-66fcc64e7c0c)
 
 
+
+![home_marvel_app](https://github.com/dev-jacksonoliveira/marvelapp/assets/59921189/94d0e5d4-5eda-4e36-84c7-016b3cb53181)
+![detail_screen](https://github.com/dev-jacksonoliveira/marvelapp/assets/59921189/2dd4fc07-666d-4561-a405-c2a9ae094672)
 
